@@ -1,0 +1,78 @@
+﻿ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+li a {
+  display: block;
+  color: #fdfdfdda;
+  font-weight: bold;
+  color: #f9f9f9;
+  text-shadow: -0 -1px 20px rgba(28, 9, 237, 0.81),
+    0 -1px 4px rgba(28, 9, 237, 0.81), -0 1px 4px rgba(28, 9, 237, 0.81),
+    0 1px 4px rgba(28, 9, 237, 0.81), -1px -0 4px rgba(28, 9, 237, 0.81),
+    1px -0 4px rgba(28, 9, 237, 0.81), -1px 0 4px rgba(28, 9, 237, 0.81),
+    1px 0 4px rgba(28, 9, 237, 0.81), -1px -1px 4px rgba(28, 9, 237, 0.81),
+    1px -1px 4px rgba(28, 9, 237, 0.81), -1px 1px 4px rgba(28, 9, 237, 0.81),
+    1px 1px 4px rgba(28, 9, 237, 0.81), -1px -1px 4px rgba(28, 9, 237, 0.81),
+    1px -1px 4px rgba(28, 9, 237, 0.81), -1px 1px 4px rgba(28, 9, 237, 0.81),
+    1px 1px 4px rgba(28, 9, 237, 0.81);
+  padding: 8px 0 8px 90px;
+  font-size: 14pt;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(255, 30, 135);
+  color: white;
+}
+body {
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  /* Изменение размера картинки, в зависимости от экрана */
+  background-size: cover;
+  background-image: url(../img/bg.jpg);
+}
+.cartinki {
+  color: #f9f9f9;
+  text-align: center;
+}
+.fig {
+  width: 97%; /* Ширина */
+  float: left; /* Выстраиваем элементы по горизонтали */
+  margin: 0 0 0 3.5%; /* Отступ слева */
+  background: #000000; /* Цвет фона */
+  border-radius: 5px; /* Радиус скругления */
+  padding: 0.5%; /* Поля */
+}
+
+.fig:first-child {
+  margin-left: 0; /* Убираем отступ для первого элемента */
+}
+
+.sp {
+  color: #f9f9f9;
+  font-size: 14pt;
+}
+.moti {
+  color: #f9f9f9;
+  font-size: 14pt;
+  text-align: left;
+}
+
+.text {
+  color: #f9f9f9;
+  font-size: 14pt;
+  text-align: center;
+}
+.topNubex {
+  position: fixed;
+  right: 45px;
+  bottom: 45px;
+}

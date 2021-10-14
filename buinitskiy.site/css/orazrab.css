@@ -1,0 +1,14 @@
+.osebe {
+  color: white;
+  font-size: 14pt;
+  font-family: "Times New Roman";
+  line-height: 1.5;
+  text-indent: 20 px;
+}
+p {
+  text-indent: 12mm; /* Отступ первой строки в пикселах */
+}
+h1 {
+  font-size: 42pt;
+  text-align: center;
+}

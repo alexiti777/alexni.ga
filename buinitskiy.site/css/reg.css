@@ -1,0 +1,112 @@
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../img/bg.jpg);
+  overflow: hidden;
+}
+.based {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+}
+
+.formabg {
+  width: 300px;
+  margin: 0 auto;
+  background: #f1efef;
+  padding: 0 45px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.formabg .titletext {
+  font-family: cursive;
+  font-weight: bold;
+  color: #000000;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 9px 0 14px;
+}
+
+.forma {
+  width: 100%;
+}
+
+.forma .vvod {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid rgba(14, 14, 14, 0.25);
+  background: none;
+  padding: 10px;
+}
+textarea {
+  resize: vertical;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid rgba(14, 14, 14, 0.25);
+  background: none;
+  padding: 10px;
+}
+.buttonvhod {
+  background: #23ca23;
+  color: #f9f9f9;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 29px;
+  letter-spacing: 3px;
+  font-size: 15px;
+  padding: 8px;
+  cursor: pointer;
+  border: 2px solid #e2e2e2;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 0px rgba(84, 84, 84, 0.48),
+    0px 3px 11px 1px rgba(90, 90, 90, 0.54);
+}
+
+.buttonvhod:hover {
+  background: #066cf3;
+}
+
+.obg {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.forma:before {
+  content: "";
+  position: absolute;
+  top: -160px;
+  left: 0;
+  border-top: 80px solid transparent;
+  border-bottom: 80px solid #f30606de;
+  border-left: 196px solid transparent;
+  border-right: 196px solid transparent;
+}
+#radiopol {
+  margin-bottom: 15px;
+}
+.radio {
+  text-align: right;
+  font-size: 20px;
+}
+
+.forma:after {
+  content: "";
+  position: absolute;
+  bottom: -160px;
+  left: 0;
+  border-top: 80px solid #e20d0d8a;
+  border-bottom: 80px solid transparent;
+  border-left: 196px solid transparent;
+  border-right: 196px solid transparent;
+}
+.ssilka {
+  margin-left: 0%;
+}

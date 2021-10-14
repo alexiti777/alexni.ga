@@ -1,0 +1,196 @@
+.user {
+text-align: left;
+  color: white;
+}
+img[alt="www.000webhost.com"] {
+  display: none;
+}
+#slideout {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+#slideout:hover .imagek {
+  transform: rotate(180deg);
+}
+
+#slideout_inner {
+  position: fixed;
+  top: 250px;
+  right: -330px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#slideout:hover {
+  left: 250px;
+}
+#radiobells_container:hover {
+  display: block;
+}
+#slideout:hover #slideout_inner {
+  right: 0;
+}
+#ro_h2 {
+  border-radius: 25px 25px 0 0;
+}
+#ro_block h2 {
+  background: #4ab546;
+  padding: 10px;
+  margin: 0;
+  line-height: 100%;
+  text-align: center;
+}
+#ro_block h2 a {
+  background: #4ab546;
+  color: #000000;
+  font: normal bold 16px Verdana, Arial, Tahoma;
+  text-decoration: none;
+}
+#ro_block h2 a:hover {
+  text-decoration: underline;
+}
+#ro_img {
+  background: #ffffff;
+  border-radius: 0 0 25px 25px;
+}
+
+#clock {
+  color: #fff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ff3300, 0 0 20px #ff0000,
+    0 0 40px #ff0000, 0 0 80px #ff0000, 0 0 90px #ff0000, 0 0 100px #ff0000,
+    0 0 150px #ff0000;
+  display: none;
+}
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.clocker {
+  position: relative;
+}
+.clocker:hover span {
+  /*background: rgba(0,0,0,0.7); (полупрозрачность)*/
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 50px;
+  position: absolute;
+  right: 1px;
+  left: 2px;
+  bottom: 1px;
+  font-size: 53px;
+  padding: 1px 5px;
+  text-align: center;
+}
+.clocker:hover #clock {
+  display: block;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 330px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+.social {
+  display: inline-block;
+}
+.social a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  color: #fff;
+  border: 0px solid rgb(204, 204, 204);
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4),
+    inset 1px 1px 0px rgba(255, 255, 255, 0.5);
+}
+.social a:hover {
+  border-color: #888;
+  opacity: 0.8;
+}
+.social svg {
+  margin-top: 7px;
+  width: 32px;
+  height: 32px;
+}
+.instagram a {
+  background: #9b3f3f;
+}
+.telegram a {
+  background: #249bd7;
+}
+.vk a {
+  background: #4a76a8;
+}
+.spisokgrupp {
+  color: white;
+  border-collapse: collapse;
+  width: 60%;
+}
+.spisokgrupp .podone {
+  background-color: violet;
+  text-align: center;
+  height: 18px;
+}
+.spisokgrupp .podtwo {
+  background-color: violet;
+  width: 50%;
+  text-align: center;
+  height: 18px;
+}
+.spisokgrupp .ongroup {
+  width: 50%;
+  height: 18px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+
+.spisokgrupp #twgroup {
+  width: 50%;
+  height: 18px;
+  text-align: center;
+  color: rgb(0, 255, 191);
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100px;
+  margin-top: 1%;
+}
+.trst {
+  height: 21px;
+}
+.tdtext {
+  width: 50%;
+  text-align: right;
+  height: 21px;
+  padding: 5px;
+  color: white;
+}
+.tdvalue {
+  width: 50%;
+  height: 21px;
+}
+.h3 {
+  text-align: center;
+  color: white;
+}
+.sel {
+  width: 150px;
+}
