@@ -378,7 +378,7 @@ td > #heart8:checked ~ label.zmr:before {
 }
 
 .bar {
-  background: url("https://imgh.us/bar_3.svg") no-repeat;
+  background: #ffffff;
   background-size: 100%;
   width: 320px;
   height: 21px;
