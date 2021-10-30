@@ -2,23 +2,24 @@
 <head>
 	<meta charset="utf-8" />
         <title>Alexbuiniy</title>
-		    <link rel="icon" type="image/ico" href="epilepsy.ico">
+		<link rel="icon" type="image/ico" href="epilepsy.ico">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-				<link rel="stylesheet" href="css/normalize.css">
-				<link rel="stylesheet" href="css/anim.css">
-				<link rel="stylesheet" href="css/animate.css">
-				
-		
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/anim.css">
+		<link rel="stylesheet" href="css/animate.css">
         <meta charset="utf-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1">
-				<script src="js/title.js"></script>
-				<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-        
-        	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
-				<script src="js/three.min.js"></script>
-				<script src="js/vanta.fog.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/title.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+		<!--Главные скрипты-->
+		<script src="js/three.min.js"></script> 
+		<script src="js/vanta.fog.min.js"></script>
 		<script src="js/jquery.fullPage.min.js"></script>
+		<!--React JS скрипты-->
+		<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 		
 		
     </head>
@@ -30,19 +31,14 @@
 								<div class="animated fadeInLeft">
 								<div style="text-align: center;"><img src="img/image.png" class="img-sizel"></div>
 								<div style="text-align: center;"><a><font size="1000"></font></a><Добро пожаловать!/></div>
-								
+							
 								<ul class="social-icons" id="logo"> 
 									<li><a  href="https://vk.com/asshabessy" target="new"><img  class="vk" src='img/vk.png' /></a></li>
 									<li><a href="https://instagram.com/alexbuiniy" target="new"><img  class="in" src='img/instagram.png' /></a></li>
 									<li><a href="https://t.me/alexbuiniy" target="new"><img class="tg" src='img/tg.png' /></a></li>
 									<li><a href="mailto:alexbiow@yandex.com" target="new"><img src='img/email.png' img class="emaili"/></a></li>
 								</ul>
-							
-								<div style="text-align: center;"><a>
-										<font size="1000"></font>
-									</a>
-									Подписалься?<br>Листай<br><a href="#block2">&#10225;</a>
-								</div>
+								<div id="like_button" ></div>
 								</div>
 								</div>
 							</div>
@@ -98,6 +94,7 @@
 		zoom: 0.30
 	})
 </script>
+<script src="js/like_button.js"></script>
 <script>// анимация кнопки
 	"use strict";
 	var element = document.getElementById("logo");
